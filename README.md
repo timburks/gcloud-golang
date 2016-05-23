@@ -7,6 +7,14 @@
 import "google.golang.org/cloud"
 ```
 
+This repository contains handwritten Go packages for calling selected Google APIs. 
+It builds on the [google-api-go-client](https://github.com/google/google-api-go-client) 
+project, which contains lower-level, automatically-generated client libraries. 
+Because it is automatically-generated, 
+[google-api-go-client](https://github.com/google/google-api-go-client) supports
+a large set of Google APIs, so if the API that interests you isn't supported here,
+please look there for a possible solution.
+
 **NOTE:** These packages are under development, and may occasionally make
 backwards-incompatible changes.
 
